@@ -11,13 +11,14 @@ void main() {
         
     //inicio do laco do segundo for 
 
-        for (j=1; j<=4) { 
-            if (j < 4){
+        for (j=1; j<=4)
+         
+            if (j < 4)
                 printf("%d \t", j*i); 
-            }
-            else{
+            
+            else
                 printf("%d \n", j*i); 
-            }
+            
         } 
     }
 } 
