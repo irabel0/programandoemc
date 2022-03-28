@@ -30,16 +30,16 @@ void pularLinha (int qtdLinhas){
 
 }
 
-void comparar (int v1, int v2){
+char* comparar (int v1, int v2){
 
     if (v1 > v2){
-        printf("O primeiro número digitado é maior que o segundo!\n");
+        return "O primeiro número digitado é maior que o segundo!\n";
     }
     else if (v1 < v2){
-        printf("O segundo número digitado é maior que o primeiro!\n");
+        return "O segundo número digitado é maior que o primeiro!\n";
     }
     else{
-        printf("O primeiro número é igual ao segundo...");
+        return "O primeiro número é igual ao segundo...\n";
     }
 }
 
@@ -83,7 +83,7 @@ void main(){
          printf("\nRESULTADO: ");
 
     pularLinha(1); 
-    comparar(n1,n2);
+        printf(comparar(n1,n2));
     pularLinha(1);    
 
     separadorHT();
