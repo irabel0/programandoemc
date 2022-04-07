@@ -27,10 +27,8 @@
     - Abra o Software Code::Blocks ou qualquer outro compilador;
     - Utilize o terminal para digitar os seguintes comandos:
         <br>
-   > `git clone https://github.com/irabel0/programandoemc ` <br>
-    * Não se esqueça de verificar onde o arquivo foi salvo, pois você deverá mapeá-lo no próximo passo:
-    <br>
+    > `git clone https://github.com/irabel0/programandoemc ` <br>
     > `cd "caminho"`
-    <br>
+ 
     * Após mapear uma das pastas do projeto, vamos compilá-lo e posteriormente executá-lo:
-    
+
