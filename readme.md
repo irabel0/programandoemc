@@ -24,11 +24,15 @@
 # **CLONANDO O PROJETO**
 * Ao efetuar a instalação de um compilador em seu computador, iremos baixar os arquivos deste projeto, compilar os programas e executá-los. Veja como:
     
-    - Abra o Software Code::Blocks ou qualquer outro compilador;
-    - Utilize o terminal para digitar os seguintes comandos:
-        <br>
-    > `git clone https://github.com/irabel0/programandoemc ` <br>
-    > `cd "caminho"`
- 
-    * Após mapear uma das pastas do projeto, vamos compilá-lo e posteriormente executá-lo:
+    1. Abra o Software Code::Blocks ou qualquer outro compilador; <br>
 
+    2. Utilize o terminal para digitar os seguintes comandos, faça-os em sequência:
+        <br>
+    > `git clone https://github.com/irabel0/programandoemc ` <br> <p>
+    > `cd "caminho"` <br>
+
+    3. Após mapear uma das pastas do projeto, vamos compilá-lo e posteriormente executá-lo: 
+        <p>
+    > `gcc "nome do arquivo.c" -o "nome_do_arquivo_final"`<br> <p>
+    > `./"nomedoarquivo"` <br>
+    
