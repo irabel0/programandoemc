@@ -52,11 +52,10 @@ void gravar(){
     fgets(punid->nomedaunidade ,60,stdin);
 
     printf("Horário de Funcionamento: ");
-<<<<<<< HEAD
-    fgets(punid->horariofunc,50,stdin);
+    fgets(punid->horariofunc,20,stdin);
 
     printf("Telefone de Contato: ");
-    fgets(punid->telefonedecntt,40,stdin);
+    fgets(punid->telefonedecntt,20,stdin);
 
 
 //o F do printf é usado para imprimir as informações do FILE criado na linha 11
